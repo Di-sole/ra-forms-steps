@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+[![Build status](https://ci.appveyor.com/api/projects/status/28il6ubptrysc11v?svg=true)](https://ci.appveyor.com/project/Di-sole/ra-forms-steps)
+# Учёт тренировок
+
+[GitHub Pages](https://di-sole.github.io/ra-forms-steps/) 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
