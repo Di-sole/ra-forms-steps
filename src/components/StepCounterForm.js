@@ -26,14 +26,14 @@ function StepCounterForm({ onAdd }) {
 	return (
 		<form className="form" onSubmit={handleSubmit}>
 			<div className="form-elem">
-				<label htmlFor="date">Дата</label>
-				<input type="date" id="date" name="date" value={form.date} onChange={handleChange} required />
+				<label className="input-description" htmlFor="date">Дата</label>
+				<input className="form-input date-input" type="date" id="date" name="date" value={form.date} onChange={handleChange} required />
 			</div>
 			<div className="form-elem">
-				<label htmlFor="distance">Пройдено км</label>
-				<input type="number" id="distance" name="distance" step="0.1" value={form.distance} onChange={handleChange} required />
+				<label className="input-description" htmlFor="distance">Пройдено км</label>
+				<input className="form-input" type="number" id="distance" name="distance" step="0.1" value={form.distance} onChange={handleChange} required />
 			</div>
-			<button className="btn add-btn" type="submit">Ok</button>
+			<button className="btn add-btn" type="submit">OK</button>
 		</form>
 	)
 }
